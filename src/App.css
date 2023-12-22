@@ -1,0 +1,30 @@
+.theme-light .main_navbar nav{
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.theme-light .main_navbar nav .dis_wra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.7rem;
+    border-radius: 6px;
+    padding: 0.25rem 0.4rem;
+    border: 2px solid #e6e7eb;
+    cursor: pointer;
+    color: #373737;
+    box-shadow: 0 0 8px 0 #0000001a;
+}
+.theme-light .main_navbar .theme-switch{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: large;
+    color: #373737;
+}
+th{
+    font-weight: lighter;
+}   
