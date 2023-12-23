@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .theme-light .main_navbar nav{
     width: 97%;
     margin: 0 auto;
@@ -28,3 +32,73 @@
 th{
     font-weight: lighter;
 }   
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    cursor: pointer;
+  }
+  
+
+
+  theme-light .main_navbar nav .dis_wra .dropbtn {
+    font-size: 1rem;
+    color: #8D8D8D;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    transition-property: normal; /* This line is unnecessary and will be overridden by the next line */
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    
+    transform: rotate(0deg);
+  }
+  
+      
+  
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content div {
+    padding: 12px 16px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Create 5 equal-width columns */
+    gap: 16px; /* Add some gap between columns */
+    padding: 16px;
+}
+
+.grid-item {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
