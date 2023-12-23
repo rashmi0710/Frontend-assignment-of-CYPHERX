@@ -3,8 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # image:
-![diaplay_page][(https://example.com/path/to/image.jpg](https://github.com/rashmi0710/Frontend-assignment-of-CYPHERX/blob/main/2023-12-23%2023%2017%2048.png))
-
+![diaplay_page][(https://github.com/rashmi0710/Frontend-assignment-of-CYPHERX/blob/main/2023-12-23%2023%2017%2048.png)]
 
 ## Available Scripts
 
