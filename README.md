@@ -2,8 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# image:
-![diaplay _mage](2023-12-23 23 17 48.png)
+
 
 ## Available Scripts
 
