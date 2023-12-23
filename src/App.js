@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
-import Ud from './Ud' ;
+import Ud from './Ud';
 
 function App() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
-  
   const toggleDropdown = () => {
-    setDropdownOpen(!isDropdownOpen);
+    setDropdownOpen((prevOpen) => !prevOpen);
   };
 
   return (
@@ -91,12 +90,9 @@ function App() {
           </button>
         </nav>
       </section>
-      <section className='component-wrapper'>
+      <section className="component-wrapper">
         <Ud />
       </section>
-            
-
-      
     </div>
   );
 }
