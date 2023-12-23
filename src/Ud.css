@@ -2,12 +2,13 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
+    padding:  20px;
+    height: auto;
   }
   
   .status-column {
     display: flex;
     flex-direction: column;
-    border: 1px solid #ddd;
     padding: 10px;
     border-radius: 8px;
   }
@@ -21,11 +22,11 @@
   }
   
   /* Add styles for each status column */
-  .backlog { background-color: #FED7D7; }
-  .todo { background-color: #FEF3C7; }
-  inprogress { background-color: #D1FAE5; }
-  done { background-color: #A7F3D0; }
-  cancelled { background-color: #F4F4F4; }
+  .backlog { background-color: white; }
+  .todo { background-color: white; }
+  .inprogress { background-color: white; }
+  done { background-color: white; }
+  cancelled { background-color: white; }
   
   /* You can customize these colors based on your preference */
   
